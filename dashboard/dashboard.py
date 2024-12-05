@@ -5,6 +5,7 @@ import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
 import urllib
+import os
 
 st.title('E-Commerce Public Data Analysis')
 sns.set(style='dark')
