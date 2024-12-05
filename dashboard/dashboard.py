@@ -54,14 +54,7 @@ max_date = all_df["order_approved_at"].max()
 
 # Sidebar
 with st.sidebar:
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.write(' ')
-    with col2:
-        st.image("https://raw.githubusercontent.com/mhdhfzz/data-analyst-dicoding/main/dashboard/logo.png"
-                 , width=100)
-    with col3:
-        st.write(' ')
+    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
 
     # Date Range
     start_date, end_date = st.date_input(
