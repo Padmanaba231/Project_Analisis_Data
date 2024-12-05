@@ -1,4 +1,7 @@
-# Dicoding Collection Dashboard ✨
+# E-Commerce Public Data Analysis  ✨
+
+## Link Dashboard
+[E-Commerce Data Dashboard Streamlit App](https://e-commerce-data-analyst.streamlit.app/)
 
 ## Setup Environment - Anaconda
 ```
