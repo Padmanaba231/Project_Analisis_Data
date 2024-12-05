@@ -44,7 +44,9 @@ def plot_brazil_map(data):
     ax.imshow(brazil, extent=[-73.98283055, -33.8, -33.75116944, 5.4])
     st.pyplot(fig)
 
-all_df = pd.read_csv('all_data.csv.gz', compression='gzip')
+current_dir = os.path.dirname(__file__)
+file_path = os.path.join(current_dir, 'all_data.csv.gz')
+all_df = pd.read_csv(file_path, compression='gzip')
 datetime_cols = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
 for col in datetime_cols:
     all_df[col] = pd.to_datetime(all_df[col])
