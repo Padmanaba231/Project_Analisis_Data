@@ -1,7 +1,7 @@
 # E-Commerce Public Data Analysis  ✨
 
 ## Link Dashboard
-[[E-Commerce Data Dashboard Streamlit App](https://e-commerce-data-analyst.streamlit.app/)](https://mmpxkxyufxqdvjqyunjpdm.streamlit.app/)
+[E-Commerce Data Dashboard Streamlit App](https://mmpxkxyufxqdvjqyunjpdm.streamlit.app/)
 
 ## Setup Environment - Anaconda
 ```
